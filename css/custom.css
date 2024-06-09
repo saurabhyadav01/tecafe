@@ -804,12 +804,12 @@ header.main-header .header-sticky.active{
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid var(--divider-color);;
-	padding-bottom: 25px;
-	margin-bottom: 25px;
+	padding-bottom: 14px;
+	margin-bottom: 14px;
 }
 
 .service-content-title h2{
-	font-size: 26px;
+	font-size: 18px;
 	width: 100%;
 	max-width: 200px;
 	text-transform: capitalize;
@@ -822,8 +822,8 @@ header.main-header .header-sticky.active{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 }
 
 .service-content-title a img{
