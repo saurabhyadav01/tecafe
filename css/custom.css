@@ -2129,12 +2129,12 @@ header.main-header .header-sticky.active{
 }
 
 .your-choice{
-	padding: 100px 0 70px;
+	padding: 80px 0 70px;
 }
 
 .your-choice-item{
 	background-color: var(--secondary-color);
-	border-radius: 40px;
+	border-radius: 10px;
 	padding: 40px;
 	height: calc(100% - 30px);
 	margin-bottom: 30px;
