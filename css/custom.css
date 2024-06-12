@@ -2331,6 +2331,7 @@ header.main-header .header-sticky.active{
 }
 .project-content > img{
 max-height: 400px;
+border-radius: 12PX;
 }
 /******************************************/
 /****     20. Portfolio Singe css      ****/
