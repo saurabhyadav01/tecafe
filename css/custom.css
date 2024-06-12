@@ -601,7 +601,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	background: var(--secondary-color) url(../images/hero-bg.png) no-repeat bottom center;
-	padding: 80px 0;
+	padding: 20px 0;
 }
 
 .hero-content{
@@ -712,7 +712,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .about-us{
-	padding: 60px 0;
+	padding: 10px 0;
 }
 
 .about-image{
@@ -782,7 +782,7 @@ header.main-header .header-sticky.active{
 
 .our-services{
 	background-color: var(--secondary-color);
-	padding: 100px 0 70px;
+	padding: 60px 0 70px;
 }
 
 .service-item {
@@ -856,8 +856,28 @@ header.main-header .header-sticky.active{
 /***      07. Portfolio css	      ***/
 /************************************/
 
+.service-card {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.service-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.service-card h4 {
+    margin-bottom: 10px;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
 .our-work{
-	padding: 100px 0 70px;
+	padding: 60px 0 70px;
 }
 
 .works-item{
@@ -904,7 +924,7 @@ header.main-header .header-sticky.active{
 
 .why-choose-us{
 	background-color: var(--secondary-color);
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 .why-choose-us-item{
@@ -1009,12 +1029,46 @@ header.main-header .header-sticky.active{
 	border-radius: 15px;
 	padding: 30px 50px;
 	margin-bottom: 30px;
-    Tech
+    
 }
 
 /************************************/
 /***    10. Testimonials css      ***/
 /************************************/
+
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.text-content {
+    max-width: 800px;
+}
+
+@media (min-width: 768px) {
+    .project-content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .project-content img {
+        margin-right: 20px;
+        width: 50%;
+    }
+
+    .text-content {
+        width: 50%;
+    }
+}
 
 .clients-testimonials{
 	background-color: var(--secondary-color);
@@ -1076,6 +1130,9 @@ header.main-header .header-sticky.active{
 .testimonial-slider .swiper-pagination .swiper-pagination-bullet-active{
 	background-color: var(--accent-color);
 }
+
+
+
 
 /************************************/
 /***    11. Latest Post css       ***/
@@ -1169,7 +1226,13 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .main-footer{
-	background-color: var(--secondary-color);
+	background-color: var(--accent-color);
+	padding: 30px 0 0;
+    color: white;
+    line-height: 12px;
+}
+.main-footer-bg{
+	background-color: red;
 	padding: 40px 0 0;
     color: #15161B;
 }
@@ -1190,24 +1253,27 @@ header.main-header .header-sticky.active{
 
 .footer-about ul li{
 	margin-bottom: 15px;
-    color: #15161B;
+    color: white;
 }
 
 .footer-about ul li:last-child{
 	margin-bottom: 0;
 }
-
+.text-color{
+    color: white;
+    margin-top: 5px;
+}
 .footer-about ul li a{
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 700;
-	color: var(--primary-color);
+	 color: white;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 
 .footer-links h2{
 	font-size: 22px;
-	color: var(--primary-color);
+	 color: white;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
@@ -1220,13 +1286,15 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li{
 	margin-bottom: 15px;
-	color: var(--text-color);
+	/* color: var(--text-color); */
+    color: white;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
 }
 
 .footer-links ul li:hover{
-	color: var(--accent-color);
+	/* color: var(--accent-color); */
+    color: white;
 }
 
 .footer-links ul li:last-child{
@@ -1235,30 +1303,34 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li a{
 	color: inherit;
-    color: #15161B;
+    /* color: #15161B; */
+    color: white;
 }
 
 .footer-copyright{
 	padding: 20px 0;
 	border-top: 2px solid var(--divider-color);;
+    color: white;
 }
 
 .footer-copyright-text p{
-	margin: 0;
+	margin: 0;color: white;
 }
 
 .footer-policy-links ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: end;
+	text-align: end;color: white;
 }
 
 .footer-policy-links ul li{
 	display: inline-block;
 	text-transform: capitalize;
 	margin-right: 30px;
-    color: #15161B;
+    line-height: 10px;
+    font-size: 14px;
+    color: #15161B;color: white;
 }
 
 .footer-policy-links ul li:last-child{
@@ -1266,13 +1338,13 @@ header.main-header .header-sticky.active{
 }
 
 .footer-policy-links ul li.highlighted{
-	font-weight: 700;
+	font-weight: 700;color: white;
 }
 
 .footer-policy-links ul li a{
 	/* color: var(--text-color); */
     color: #15161B;
-    font-weight: bold;
+    font-weight: bold;color: white;
 }
 
 /************************************/
@@ -2192,7 +2264,7 @@ header.main-header .header-sticky.active{
 
 .ask-question{
 	background-color: var(--secondary-color);
-	border-radius: 40px;
+	border-radius: 10px;
 	padding: 40px 30px;
     position: sticky;
     top: 110px;
@@ -2430,6 +2502,7 @@ header.main-header .header-sticky.active{
 
 .accordion-body p{
 	margin: 0;
+    font-size: 16px;
 }
 
 /************************************/
@@ -3085,7 +3158,7 @@ header.main-header .header-sticky.active{
     }
 
     .accordion-body{
-        padding: 10px 40px 20px 20px;
+        padding: 4px 40px 20px 20px;
     }
 
     .error-page{
