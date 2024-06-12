@@ -2322,7 +2322,16 @@ header.main-header .header-sticky.active{
 .ask-contact-list a span{
 	color: var(--primary-color);
 }
+.case-study{
+    padding: 40px;
+}
 
+.case-study-link{
+    color: #0dcaf0;
+}
+.project-content > img{
+max-height: 400px;
+}
 /******************************************/
 /****     20. Portfolio Singe css      ****/
 /******************************************/
