@@ -2799,15 +2799,16 @@ border-radius: 12PX;
     }
 
     .footer-about ul li a{
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .footer-links h2{
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .footer-links ul li{
         margin-bottom: 10px;
+        font-family: sans-serif;
     }
 
     .footer-copyright-text{
