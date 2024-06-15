@@ -478,7 +478,13 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 	padding: 8px 20px !important;
 }
+.sab-menu{
+    /* min-width: 500px; */
+}
+.sab-menu > a{
 
+    font-size: 14px !important
+}
 .main-menu ul li:hover > ul{
 	visibility: visible;
 	opacity: 1;
