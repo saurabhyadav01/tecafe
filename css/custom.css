@@ -615,7 +615,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	background: var(--secondary-color) url(../images/hero-bg.png) no-repeat bottom center;
-	padding: 20px 0;
+	padding: 20px 20px;
 }
 
 .hero-content{
@@ -731,7 +731,8 @@ header.main-header .header-sticky.active{
 
 .about-image{
 	position: relative;
-    padding-right: 70px;
+    /* padding-right: 70px; */
+    height: 80%;
 }
 
 .about-img img{
@@ -810,7 +811,7 @@ header.main-header .header-sticky.active{
 
 
 .service-content{
-	padding: 20px;
+	padding: 8px;
 }
 
 .service-content-title{
@@ -2647,10 +2648,7 @@ border-radius: 12PX;
         margin-bottom: 20px;
     }
 
-    .about-us{
-        padding: 50px 0;
-    }
-
+  
     .about-image{
         text-align: center;
         margin-bottom: 90px;
@@ -3534,3 +3532,5 @@ border-radius: 12PX;
         margin-bottom: 30px;
     }
 }
+
+
