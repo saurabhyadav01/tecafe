@@ -39,7 +39,7 @@
 	--primary-color		: #15161B;
 	--secondary-color	: #F7F8FD;
 	--text-color		: #222;
-	--accent-color		: #2c3e50;
+	--accent-color		: #243142;
 	--white-color		: #FFFFFF;
 	--divider-color		: #E1E4EB;
 	--error-color		: rgb(230, 87, 87);
@@ -724,7 +724,9 @@ header.main-header .header-sticky.active{
 /************************************/
 /***       05. About us css	      ***/
 /************************************/
-
+.hero-padding{
+    padding: 30px 0;
+}
 .about-us{
 	padding: 10px 0;
 }
@@ -824,9 +826,10 @@ header.main-header .header-sticky.active{
 }
 
 .service-content-title h2{
-	font-size: 22px;
+	font-size: 20px;
 	width: 100%;
 	max-width: 200px;
+    font-weight: 600;
 	text-transform: capitalize;
 }
 
@@ -854,16 +857,25 @@ header.main-header .header-sticky.active{
 }
 
 .service-image{
-	border-radius: 8px;
+	border-radius: 6px;
 	overflow: hidden;
 }
 
 .service-image img{
 	border-radius: 8px;
-	transition: all 0.5s ease-out;
+   
+	transition: all 0.3s ease-out;
 }
-
+.service-image1 img{
+	border-radius: 6px;
+    width: 50%;
+    height: 50%;
+	transition: all 0.2s ease-out;
+}
 .service-item:hover .service-image img{
+	transform: scale(1.1)
+}
+.service-item:hover .service-image1 img{
 	transform: scale(1.1)
 }
 
