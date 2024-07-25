@@ -730,18 +730,46 @@ header.main-header .header-sticky.active{
 .about-us{
 	padding: 10px 0;
 }
+.service-page{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.page-header-1{
+    padding: 100px;
+    background-color: #f6f7f9;
 
+}
 .about-image{
 	position: relative;
     /* padding-right: 70px; */
     height: 80%;
 }
-
+.image-container img{
+    border-radius: 8px;
+}
+.image-container{
+    max-height: 400px;
+}
 .about-img img{
 	border-radius: 8px;
     /* width: 80%; */
 }
-
+.technology-icons .icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.icon-item i {
+    font-size: 30px;
+    color: #fff;
+}
+.icon-item {
+    background: #222;
+    border-radius: 50%;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 .about-consultation{
 	position: absolute;
 	top: 50%;
@@ -2351,7 +2379,8 @@ header.main-header .header-sticky.active{
 	color: var(--primary-color);
 }
 .case-study{
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .case-study-link{
